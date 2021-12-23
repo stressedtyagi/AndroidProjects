@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Spinners And Menus</string>
+    <string name="title">Java Code Spinner</string>
+    <string name="spinner2">XML Spinner</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_data">Data</string>
+
+    <string-array name="spinner">
+        <item>MY ITEM 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+    <string-array name="spinner_xml">
+        <item>XML 1</item>
+        <item>XML 2</item>
+        <item>XML 3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.androidservices.services.MainActivity">
+
+    <TextView
+        android:id="@+id/service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receiver"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        android:textSize="50dp"/>
+
+    <Button
+        android:id="@+id/btnStartBroadcast"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/extraIntent"
+        android:onClick="broadcastCustomIntent"
+        android:text="BroadCast Receiver" />
+
+    <Button
+        android:id="@+id/Intent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Coustom"
+        android:onClick="click"/>
+
+</LinearLayout>

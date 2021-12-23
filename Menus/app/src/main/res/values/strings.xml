@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Menus</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_data">Data</string>
+</resources>
